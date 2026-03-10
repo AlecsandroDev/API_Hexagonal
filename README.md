@@ -17,3 +17,15 @@ Rotas:
   /Curso
     GET /Curso/GetCursoAll | Retorna todos os cursos cadastrados | nenhum
 ```
+---
+SQL para adição dos cursos:
+```
+USE api_hexagonal;
+
+INSERT INTO curso (Id, Name) VALUES (UUID(), "Ciência da Computação");
+INSERT INTO curso (Id, Name) VALUES (UUID(), "Análise e Desenvolvimento de Sistemas");
+INSERT INTO curso (Id, Name) VALUES (UUID(), "Inteligência Artificial");
+INSERT INTO curso (Id, Name) VALUES (UUID(), "Segurança da Informação");
+
+SELECT * FROM curso;
+```
