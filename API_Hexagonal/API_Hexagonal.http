@@ -1,0 +1,6 @@
+@API_Hexagonal_HostAddress = http://localhost:5047
+
+GET {{API_Hexagonal_HostAddress}}/api/matricula/
+Accept: application/json
+
+###
